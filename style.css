@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: rgb(189, 67, 116);
+  text-decoration: none;
+}
+
+.menu {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 8rem;
+}
+
+.nav-items {
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav-items--menuIcon {
+  background-color: pink;
+  padding: 1rem;
+  display: none;
+}
+
+#a-first {
+  color: rgba(255, 50, 159, 0.833);
+}
+
+a:hover {
+  color: rgba(255, 50, 159, 0.833);
+  transition: color 0.2s;
+}
+
+.menu-img {
+  width: 6rem;
+  height: 4 5rem;
+  padding: 1rem;
+}
